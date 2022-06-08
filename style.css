@@ -1,0 +1,28 @@
+@charset "utf-8";
+a{
+    text-decoration: none;
+}
+h1{
+    color:#4A4129;
+    font-size:50px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+h2{
+    color:#4A4129;
+    font-size:30px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#web_main{
+    border: solid 5px #F7C325;
+    width: 70%;
+    margin: auto
+}
+#main_menu
+{
+    background-color: #F7C325;
+    margin: auto;
+}
