@@ -18,11 +18,19 @@ h2{
 }
 #web_main{
     border: solid 5px #F7C325;
-    width: 70%;
-    margin: auto
+    width: 80%;
+    margin:auto;
+    margin-bottom:10px;
 }
 #main_menu
 {
     background-color: #F7C325;
     margin: auto;
+    margin-right: 20px;
+    height: 70%;
+    position:fixed;
+}
+.contents
+{
+    margin-left:15%;
 }
