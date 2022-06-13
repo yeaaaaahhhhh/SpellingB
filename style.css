@@ -22,7 +22,7 @@ h2{
     margin:auto;
     margin-bottom:10px;
 }
-#main_menu
+#left_menu
 {
     background-color: #F7C325;
     margin: auto;
@@ -33,4 +33,13 @@ h2{
 .contents
 {
     margin-left:15%;
+}
+.sidenav
+{
+    height: 100%;
+    
+}
+textarea{
+    width: auto;
+    height: 100px;
 }

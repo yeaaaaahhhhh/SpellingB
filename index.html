@@ -14,9 +14,13 @@
             <h2>Vocabulary Learning Tool</h2>
         </a>
     </div>
-    <div id="main_menu">
+    <div id="left_menu">
         <ul>
-            <li><a href="1.html">Upload a Vocab List</a></li>
+            <li><a href="1.html">Upload a Vocab List</a>
+            <ol class="upload_submenu">
+                <li>Type Manually</li>
+                <li>Upload Doc files</li>
+            </ol></li>
             <li><a href="2.html">Spelling Bee</a></li>
             <li><a href="3.html">Save Lists as Doc</a></li>
         </ul>
@@ -25,14 +29,24 @@
             <li>Setting</li>
         </ol>
     </div>
+    <div id="voca_nav" class="sidenav">
+        <ul>
+            <li>하</li>
+            <li>...</li>
+        </ul>
+    </div>
     <div class="contents">
         <h3>Home</h3>
+        <textarea id="input"></textarea>
+        <input type="button" id="butt1" value="입력" onclick="printVoca()">
+        <p id="output"></p>
         <p style="margin-top:45px">
             p는 단락, br은 new line<br>
             <img src="a.jpg" width="30%">
             <br>메뉴와 파일명 서랍이 들어가야함
         </p>
     </div>
+    <script src="./scripts.js"></script>
 </body>
 
 </html>
